@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sqlite3
 import os
 import asyncio
@@ -6,6 +7,7 @@ from typing import List, Dict, Any, Optional
 import json
 import requests
 import time
+import sys
 from sentence_transformers import SentenceTransformer
 import chromadb
 from chromadb.utils import embedding_functions
